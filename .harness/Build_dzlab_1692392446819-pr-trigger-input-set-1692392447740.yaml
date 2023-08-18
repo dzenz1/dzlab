@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_dzlab_1692392446819-pr-trigger-input-set
+  identifier: Build_dzlab_1692392446819prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_dzlab_1692392446819
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
